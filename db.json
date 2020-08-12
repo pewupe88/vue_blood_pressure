@@ -1,0 +1,190 @@
+{
+    "measures": [
+        {
+            "systolic": 129,
+            "diastolic": 87,
+            "pulse": 82,
+            "date": "01-07-2020"
+        },
+        {
+            "systolic": 130,
+            "diastolic": 86,
+            "pulse": 77,
+            "date": "02-07-2020"
+        },
+        {
+            "systolic": 108,
+            "diastolic": 72,
+            "pulse": 80,
+            "date": "03-07-2020"
+        },
+        {
+            "systolic": 130,
+            "diastolic": 91,
+            "pulse": 72,
+            "date": "04-07-2020"
+        },
+        {
+            "systolic": 120,
+            "diastolic": 82,
+            "pulse": 71,
+            "date": "05-07-2020"
+        },
+        {
+            "systolic": 121,
+            "diastolic": 85,
+            "pulse": 70,
+            "date": "06-07-2020"
+        },
+        {
+            "systolic": 132,
+            "diastolic": 91,
+            "pulse": 89,
+            "date": "07-07-2020"
+        },
+        {
+            "systolic": 129,
+            "diastolic": 83,
+            "pulse": 74,
+            "date": "08-07-2020"
+        },
+        {
+            "systolic": 144,
+            "diastolic": 95,
+            "pulse": 69,
+            "date": "09-07-2020"
+        },
+        {
+            "systolic": 148,
+            "diastolic": 95,
+            "pulse": 83,
+            "date": "10-07-2020"
+        },
+        {
+            "systolic": 147,
+            "diastolic": 94,
+            "pulse": 77,
+            "date": "11-07-2020"
+        },
+        {
+            "systolic": 135,
+            "diastolic": 91,
+            "pulse": 74,
+            "date": "12-07-2020"
+        },
+        {
+            "systolic": 140,
+            "diastolic": 96,
+            "pulse": 72,
+            "date": "13-07-2020"
+        },
+        {
+            "systolic": 135,
+            "diastolic": 92,
+            "pulse": 69,
+            "date": "14-07-2020"
+        },
+        {
+            "date": "15-07-2020",
+            "systolic": 128,
+            "diastolic": 86,
+            "pulse": 71
+        },
+        {
+            "date": "16-07-2020",
+            "systolic": 128,
+            "diastolic": 83,
+            "pulse": 65
+        },
+        {
+            "date": "17-07-2020",
+            "systolic": 144,
+            "diastolic": 96,
+            "pulse": 70
+        },
+        {
+            "date": "18-07-2020",
+            "systolic": 129,
+            "diastolic": 77,
+            "pulse": 73
+        },
+        {
+            "date": "19-07-2020",
+            "systolic": 0,
+            "diastolic": 0,
+            "pulse": 0
+        },
+        {
+            "date": "20-07-2020",
+            "systolic": 114,
+            "diastolic": 79,
+            "pulse": 72
+        },
+        {
+            "date": "21-07-2020",
+            "systolic": 119,
+            "diastolic": 81,
+            "pulse": 76
+        },
+        {
+            "date": "22-07-2020",
+            "systolic": 138,
+            "diastolic": 85,
+            "pulse": 73
+        },
+        {
+            "date": "23-07-2020",
+            "systolic": 136,
+            "diastolic": 89,
+            "pulse": 79
+        },
+        {
+            "date": "24-07-2020",
+            "systolic": 134,
+            "diastolic": 85,
+            "pulse": 70
+        },
+        {
+            "date": "25-07-2020",
+            "systolic": 135,
+            "diastolic": 94,
+            "pulse": 75
+        },
+        {
+            "date": "26-07-2020",
+            "systolic": 136,
+            "diastolic": 92,
+            "pulse": 74
+        },
+        {
+            "date": "27-07-2020",
+            "systolic": 129,
+            "diastolic": 88,
+            "pulse": 70
+        },
+        {
+            "date": "28-07-2020",
+            "systolic": 139,
+            "diastolic": 88,
+            "pulse": 67
+        },
+        {
+            "date": "29-07-2020",
+            "systolic": 127,
+            "diastolic": 85,
+            "pulse": 68
+        },
+        {
+            "date": "30-07-2020",
+            "systolic": 129,
+            "diastolic": 89,
+            "pulse": 71
+        },
+        {
+            "date": "31-07-2020",
+            "systolic": 134,
+            "diastolic": 89,
+            "pulse": 83
+        }
+    ]
+}

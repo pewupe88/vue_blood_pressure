@@ -1,13 +1,7 @@
-class CustomComponent {
-    constructor(name) {
-        this.name = name;
-    }
+import Vue from 'vue';
 
-    get customName() {
-        return this.name;
-    }
-}
-
-const customBtn = new CustomComponent('Custom name');
-
-console.debug(customBtn.customName);
+new Vue({
+    data: () => ({
+        title: 'Title'
+    })
+}).$mount('#app');

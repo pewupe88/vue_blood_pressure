@@ -5,16 +5,6 @@
         <title>Blood pressure app</title>
     </head>
     <body>
-        <div id="app">
-            <ul>
-                <li v-for="measure in measures">
-                    <strong style="margin-right: 10px;">Date: {{ measure.date }}</strong>
-                    <span style="margin-right: 10px;">Heart rate: {{ measure.pulse }}</span>
-                    <div :style="{ backgroundColor: generateColor(measure), padding: '5px 10px', display: 'inline-block' }">
-                        {{ measure.systolic }} / {{ measure.diastolic }}
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <div id="app"></div>
     </body>
 </html>

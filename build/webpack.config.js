@@ -1,11 +1,12 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: './src/main.js',
     output: {
-        filename: 'app.js',
+        filename: 'bundles.js',
         path: path.resolve(__dirname, '..', 'dist')
     },
 
@@ -15,17 +16,34 @@ module.exports = {
         rules: [
             {
                 test: /\.vue$/,
-                loader: 'vue-loader'
+                use: ['vue-loader']
             },
             {
                 test: /\.js$/,
-                exclude: /node_modules/,
+                include: path.resolve(__dirname, '..', 'src'),
                 use: {
                     loader: 'babel-loader',
                     options: {
                         presets: ['@babel/preset-env']
                     }
                 }
+            },
+            {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                    'sass-loader'
+                ]
+            },
+            {
+                test: /\.css/,
+                exclude: /node_modules/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader'
+                ]
             }
         ]
     },
@@ -40,6 +58,7 @@ module.exports = {
     },
 
     plugins: [
+        new MiniCssExtractPlugin(),
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
             template: './index.html'
